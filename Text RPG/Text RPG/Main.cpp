@@ -1,9 +1,9 @@
 #include "Game.h"
 
 int Main() {
-
+	bool running = true;
 	Game game;
-	while (game.playing()) {
+	while (running == true) {
 
 		game.mainMenu();
 

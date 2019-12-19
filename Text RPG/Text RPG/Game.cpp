@@ -2,7 +2,6 @@
 
 Game::Game() {
 
-	running = true;
 	choice = 0;
 
 }
